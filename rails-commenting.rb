@@ -6,15 +6,15 @@
 
 # FILE: app/controller/blog_posts_controller.rb
 
-# ---1)
+# ---1) BlogPostsController is a inherits from Application Controller
 class BlogPostsController < ApplicationController
   def index
-    # ---2)
+    # ---2) Index is a controller verb for show all blog posts the router (http verbs) makes a request to the controller (controller verbs) to show all indexed blog posts. 
     @posts = BlogPost.all
   end
 
   def show
-    # ---3)
+    # ---3) Show is a controller verb that 
     @post = BlogPost.find(params[:id])
   end
 
