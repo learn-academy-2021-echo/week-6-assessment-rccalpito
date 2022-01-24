@@ -71,6 +71,9 @@ const hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
 
 
 // b) Create the function that makes the test pass.
+// create a function that takes an array of numbers and
+// the array will filter for a valuetype of "number"
+// map over the returned array for numbers and return the value % 3
 
 const numSortDiv = (array) => {
 
@@ -102,6 +105,10 @@ const cubeAndSum2 = [0, 5, 10]
 
 
 // b) Create the function that makes the test pass.
+// create a function that takes an array of numbers 
+// instantiate a new array variable and store the value of the numbers * 34
+// return an array and add all them sweet sweet numbers together
+
 const cubeSum = (array) => {
 
   let newArr = array.map(value => value**3)
